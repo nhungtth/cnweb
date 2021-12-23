@@ -70,7 +70,7 @@ async function uploadAvatar() {
 
 //get progress
 async function getProgress(){
-  const response = await fetch(url + "progress/" + sessionStorage.getItem("username"), {
+  const response = await fetch(url + "progress/" + sessionStorage.getItem("slug"), {
     method: "GET",
     withCredentials: true,
     headers: {

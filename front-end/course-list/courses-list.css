@@ -115,13 +115,14 @@ body {
     background-color: rgb(245 212 14);
     opacity: 0.8;
     align-items: center;
+    justify-content: center;
 }
 
 .lesson .none {
     background-color: #cccaca;
 }
 
-.lesson_index a{
+.lesson_index div{
     width: 60px;
     text-align: center;
     text-decoration: none;

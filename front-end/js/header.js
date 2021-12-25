@@ -18,7 +18,7 @@ function isLogin() {
 
 //get profile
 async function getProfile() {
-  const response = await fetch(url + "user/profile/" + sessionStorage.getItem("username"), {
+  const response = await fetch(url + "user/profile/" + sessionStorage.getItem("slug"), {
     method: "GET",
     withCredentials: true,
     headers: {

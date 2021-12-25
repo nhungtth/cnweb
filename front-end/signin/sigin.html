@@ -6,6 +6,7 @@
     </title>
 
     <link rel="stylesheet" type="text/css" href="sigin.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link href="http://fonts.googleapis.com/css2?family=jost:wght@500@displa=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,11 +15,11 @@
         <div class="signup">
             <header>Sign In</header>
             <form>
-                <input type="text" name="txt" placeholder="User name" required="">
-                <input type="email" name="email" placeholder="Email" required="">
-                <input type="password" name="pswd" placeholder="Password">
-                <input type="password" name="pswd" placeholder="Comfirm password">
-                <button> Sign up</button> 
+                <input type="text" name="txt" placeholder="User name" required id="usernameInput">
+                <input type="email" name="email" placeholder="Email" required id="emailInput">
+                <input type="password" name="pswd" placeholder="Password" id="passwordInput">
+                <input type="password" name="pswd" placeholder="Confirm password" id="confirmpassInput">
+                <button id="submitBtn"> Sign up</button> 
             </form>
             <p class="social-text"> or sigup with social platform</p>
             <div class="social-media">
@@ -30,6 +31,6 @@
         </div>
             
 
-        <script src="../login/login.js"></script>
+        <script src="../signin/signin.js"></script>
 </body>
 </html>
